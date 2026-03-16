@@ -10,10 +10,10 @@ import java.util.Scanner;
  */
 public class Semana14 {
     
-    
     static double CalculoArea(double b, double h){
         return(b*h);
     }
+    
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         double b, h;
@@ -24,8 +24,7 @@ public class Semana14 {
         h=sc.nextDouble();
         double resp=CalculoArea(b,h);
         System.out.println("El area es: "+resp);
-        
-        
+
     }   
    
 }
