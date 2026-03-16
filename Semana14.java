@@ -9,8 +9,11 @@ import java.util.Scanner;
  * @author Admin
  */
 public class Semana14 {
-
-
+    
+    
+    static double CalculoArea(double b, double h){
+        return(b*h);
+    }
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         double b, h;
@@ -23,11 +26,6 @@ public class Semana14 {
         System.out.println("El area es: "+resp);
         
         
-    }
-    
-    static double CalculoArea(double b, double h){
-        return(b*h);
-    }
-    
+    }   
    
 }
